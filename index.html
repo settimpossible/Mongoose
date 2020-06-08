@@ -9,21 +9,29 @@
         color: black;
         font-weight: 600;
         font-family: "Lucida Sans";
+        text-align: center;
       }
 
       .p {
         color: black;
+        width: 300px;
       }
 
       .div {
         background-color: darkgray;
         padding: 20px 20px;
+        width: 300px;
+
       }
 
       
       .photos {
-        width: 120px;
-        height: 120px;
+        width: 300px;
+        height: 300px;
+      }
+
+      .container-image {
+        display:inline-block
       }
 
     </style>
@@ -31,22 +39,18 @@
   <body>
     <h1>Let's discover who the mongooses are</h1>
     <div>
-      <div>
+      <div class="container-image">
         <img class="photos" src="chakibmongoose.jpg" alt="Chakib mongoose" />
       </div>
       <div>
         <p>Name: Chakib</p>
         <p>Age: 32</p>
         <p>Favorite food: Loves everything</p>
-        <p>
-          Favorite quote: The way to get started is to quit talking and begin
-          doing
-        </p>
         <p>Anecdote: blabla</p>
       </div>
     </div>
-    <div>
-      <div>
+    <div >
+      <div class="container-image">
         <img class="photos" src="elevator.png" alt="" />
       </div>
       <div>
